@@ -1,0 +1,17 @@
+required libraries:
+
+    ->pandas for reading csv files
+    ->nltk for natural preprocesing
+    ->matplotlib,seaborn for data visualization.
+    
+
+STEP1:WEB SCRAPPING
+      ->I used instant data scrapper extension in google chrome to collect the data of items,price of each item in indian rupees finally item         description and converted to csv file.
+STEP2:DATA ANALYSIS
+      ->changing each description to words.
+      ->by usinng natural language tool kit library we convert into  words and them removing stopwords.
+      ->finally finding frequency of words in each Description item.
+      
+STEP3:DATA VISUALIZATION
+      ->constructing the plots for frequency words in each item of the description.
+      
